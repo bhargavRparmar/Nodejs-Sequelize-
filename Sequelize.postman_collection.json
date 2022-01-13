@@ -1,0 +1,393 @@
+{
+	"id": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+	"name": "Sequelize",
+	"description": "",
+	"order": [
+		"d89dc6d2-fc7d-fe6e-5a85-a5950b9396f9",
+		"5efbcd8e-9e8d-b97c-94f8-5cba9c82b4d3",
+		"957d8a85-81ea-a69f-ceec-e79fd6814508",
+		"53dde528-5938-16f3-4c8a-812d356c7543",
+		"d609eb03-0593-8b50-f2a9-17796f753846",
+		"9e66ac39-19ce-b438-d4e7-550d7530215f",
+		"6a42e763-4eaa-9c23-ecdb-6b6a1376c7e8",
+		"88d8c977-c200-b75a-c400-255834c0348a",
+		"50a5124c-6889-66b1-7608-6e4d4ff99431"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1642061239509,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "50a5124c-6889-66b1-7608-6e4d4ff99431",
+			"headers": "Authorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1OTkyNCwiZXhwIjoxNjQyMDYzNTI0fQ.UPmJA0aCeMJmSyVvvq_9H7vcp-hwZBg2rQCI6I5jq80\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1OTkyNCwiZXhwIjoxNjQyMDYzNTI0fQ.UPmJA0aCeMJmSyVvvq_9H7vcp-hwZBg2rQCI6I5jq80",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/deleteAddressBook/6",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": null,
+			"dataMode": "params",
+			"name": "DeleteAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061460464,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "53dde528-5938-16f3-4c8a-812d356c7543",
+			"headers": "Authorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk2OTEzNSwiZXhwIjoxNjQxOTY5NzM1fQ.TkMxccHTlEFGMnhMr-B8WFHEkcRLAXtPdcstwlfCzQc\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk2OTEzNSwiZXhwIjoxNjQxOTY5NzM1fQ.TkMxccHTlEFGMnhMr-B8WFHEkcRLAXtPdcstwlfCzQc",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:1000/updateProfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [
+				{
+					"key": "Name",
+					"value": "Bhargav",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "Male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Email",
+					"value": "bhargavparmar2020@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "updateProfile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061324152,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5efbcd8e-9e8d-b97c-94f8-5cba9c82b4d3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [
+				{
+					"key": "Email",
+					"value": "bhargavparmar2020@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Password",
+					"value": "222222",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061270632,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6a42e763-4eaa-9c23-ecdb-6b6a1376c7e8",
+			"headers": "Authorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1MTE4NCwiZXhwIjoxNjQyMDU0Nzg0fQ.vmmf6ZgPMjOvtdD5CO8qJRY8X3ns5HJEKXG56Gb5GDI\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1MTE4NCwiZXhwIjoxNjQyMDU0Nzg0fQ.vmmf6ZgPMjOvtdD5CO8qJRY8X3ns5HJEKXG56Gb5GDI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/viewAddressBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": null,
+			"dataMode": "params",
+			"name": "ViewAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061414887,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "88d8c977-c200-b75a-c400-255834c0348a",
+			"headers": "Authorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1NzU0MywiZXhwIjoxNjQyMDYxMTQzfQ.BERtBNmfFtD2jAXWlu6OdO92oNT8DKg1GkJ57-zaSrY\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1NzU0MywiZXhwIjoxNjQyMDYxMTQzfQ.BERtBNmfFtD2jAXWlu6OdO92oNT8DKg1GkJ57-zaSrY",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/updateAddressBook/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UpdateAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061437456,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n{\n    \"Title\":\"The Lion\",\n   \"addressLine1\":\"abdefghijk\",\n   \"addressLine2\":\"asdfghjklqwertyuiop\",\n   \"Country\":\"India\",\n   \"State\":\"Gujrat\",\n   \"City\":\"Junagadh\",\n   \"PinCode\":\"382451\"\n}\n"
+		},
+		{
+			"id": "957d8a85-81ea-a69f-ceec-e79fd6814508",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk2ODI0MiwiZXhwIjoxNjQxOTY4ODQyfQ.8jGtrReD1GPKk-Aj1UjVmDR4V2Z4DJn-IwIU8X2E7vc\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk2ODI0MiwiZXhwIjoxNjQxOTY4ODQyfQ.8jGtrReD1GPKk-Aj1UjVmDR4V2Z4DJn-IwIU8X2E7vc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/viewProfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": null,
+			"dataMode": "params",
+			"name": "ViewProfile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061287383,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9e66ac39-19ce-b438-d4e7-550d7530215f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1MTE4NCwiZXhwIjoxNjQyMDU0Nzg0fQ.vmmf6ZgPMjOvtdD5CO8qJRY8X3ns5HJEKXG56Gb5GDI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MjA1MTE4NCwiZXhwIjoxNjQyMDU0Nzg0fQ.vmmf6ZgPMjOvtdD5CO8qJRY8X3ns5HJEKXG56Gb5GDI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/addAddressBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "AddAddressBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061383650,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[\n{\n\n   \"Title\":\"The Rock\",\n   \"addressLine1\":\"svsavsvvjndsvsdsdjvbsdvds\",\n   \"addressLine2\":\"bvshbvhsvbsbvsdvabsadsd\",\n   \"Country\":\"Australia\",\n   \"State\":\"Punjab\",\n   \"City\":\"Junagadh\",\n   \"PinCode\":\"382351\"\n   \n\n},\n{\n\n   \"Title\":\"The Gamer\",\n   \"addressLine1\":\"asbshvbsvhsdhbvshdbvsdsvdsd\",\n   \"addressLine2\":\"fabdvssadjkvbjkvaavjsbadvbj\",\n   \"Country\":\"India\",\n   \"State\":\"Gujarat\",\n   \"City\":\"Surat\",\n   \"PinCode\":\"300081\"\n   \n\n}\n]"
+		},
+		{
+			"id": "d609eb03-0593-8b50-f2a9-17796f753846",
+			"headers": "Authorization: Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk3MjY1MywiZXhwIjoxNjQxOTczMjUzfQ.U18gOT1wjlM0xVO2497XBLnjlQleKEdQkIgbISX8YgM\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImJoYXJnYXZwYXJtYXIyMDIwQGdtYWlsLmNvbSIsImlhdCI6MTY0MTk3MjY1MywiZXhwIjoxNjQxOTczMjUzfQ.U18gOT1wjlM0xVO2497XBLnjlQleKEdQkIgbISX8YgM",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1000/resetPassword",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "ResetPassword",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061356320,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n   \"CurrentPassword\":\"111111\",\n   \"Password\":\"222222\",\n   \"ConfirmPassword\":\"222222\"\n\n}"
+		},
+		{
+			"id": "d89dc6d2-fc7d-fe6e-5a85-a5950b9396f9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:1000/registration ",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a34e5f3e-b733-616d-9c6c-32fef5a5be1a",
+			"data": [
+				{
+					"key": "Name",
+					"value": "Raj",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "Male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "Email",
+					"value": "Rajparmar220@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Password",
+					"value": "222222",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "registration ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642061242815,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
